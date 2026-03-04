@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página não encontrada | 404</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+        }
+        .error-container {
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 8rem;
+            font-weight: 900;
+            color: #ff4757;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #2f3542;
+        }
+        p {
+            font-size: 1rem;
+            margin-bottom: 30px;
+            color: #747d8c;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #2f3542;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.2s, background 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #57606f;
+            transform: translateY(-3px);
+        }
+        /* Efeito visual simples */
+        .ghost {
+            font-size: 5rem;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="error-container">
+        <div class="ghost">👻</div>
+        <h1>404</h1>
+        <h2>Ops! Onde foi todo mundo?</h2>
+        <p>A página que você está procurando não existe ou foi movida.</p>
+        <a href="index.html" class="btn-home">Voltar para o Início</a>
+    </div>
+
+</body>
+</html>
+</html>
